@@ -9,6 +9,17 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    OnClickListener = new OnClickListener(){
+        @Override
+             public void onClick(View view) {
+            }
+    };
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
+        super.onCreate(savedInstanceState, persistentState);
+        Button F1 = (Button)findViewById(R.id.btn1);
+               F1.setOnClickListener(listener);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
