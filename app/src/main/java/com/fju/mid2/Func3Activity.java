@@ -3,7 +3,7 @@ package com.fju.mid2;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class Func３Activity extends AppCompatActivity {
+public class Func3Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
